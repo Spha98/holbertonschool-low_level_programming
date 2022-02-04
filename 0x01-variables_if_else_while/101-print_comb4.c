@@ -17,7 +17,7 @@ int main(void)
 			{
 				if (c < i && i < k)
 				{
-					putchar(c)
+					putchar(c);
 					putchar(i);
 					putchar(k);
 
