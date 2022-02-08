@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  *main - Prints the putchar
@@ -17,5 +16,6 @@ int main(void)
 	_putchar('t');
 	_putchar('o');
 	_putchar('\n');
+
 	return (0);
 }
