@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i = 0;
-	long j = 1; k = 2;
+	long j = 1, k = 2;
 	/*method*/
 	while (i < 50)
 	{
