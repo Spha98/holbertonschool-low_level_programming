@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _strpbrk - search a string for any of a set of bytes
- * @s: source string
- * @accept: accept characters
- *
- * Return: the string since the first found accept character
- */
-char *strpbrk(char *s, char *accept)
+  * _strpbrk - search a string for any of a set of bytes
+  * @s: source string
+  * @accept: accepted characters
+  *
+  * Return: the string since the first found accepted character
+  */
+char *_strpbrk(char *s, char *accept)
 {
-	int a= 0, b;
+	int a = 0, b;
 
 	while (s[a])
 	{
