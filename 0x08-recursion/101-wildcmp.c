@@ -25,7 +25,7 @@ char *test(char *s5, char *s6, char *t5, char *t6)
  *
  * Return: pointer to spot in s3 that matches s4
  */
-char wildcard(char *s3, char *s4)
+char *wildcard(char *s3, char *s4)
 {
 	if (*s3 != *s4)
 	{
