@@ -1,5 +1,6 @@
 #include "main.h"
 
+int _sqrt(int n, int i);
 /**
  * _sqrt_recursion - Print the natural number square of a number
  * @n: value calculated the natural number
