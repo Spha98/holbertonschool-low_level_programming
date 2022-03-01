@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - ... 
- * @width: ...
- * @height: ...
- *
- * Return: ...
- */
+  * alloc_grid - ...
+  * @width: ...
+  * @height: ...
+  *
+  * Return: ...
+  */
 int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
@@ -30,7 +30,7 @@ int **alloc_grid(int width, int height)
 
 		if (a[i] == NULL)
 		{
-			for (j = 0; j >= 0; j--)
+			for (j = i; j >= 0; j--)
 			{
 				free(a[j]);
 			}
