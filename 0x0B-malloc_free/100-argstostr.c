@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <stdlib.c>
+#include <stdlib.h>
 
 /**
  *argstostr - convert the params passed to the program to string
