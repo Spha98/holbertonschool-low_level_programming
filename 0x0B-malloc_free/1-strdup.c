@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the duplicate of the string
- * @str: duplicate of the string
+ * main - Duplicate a string
+ * @str: the string to duplicate
  *
- *Return: pointer to a new string
+ *Return: the string duolicated
  */
 char *_strdup(char *str)
 {
