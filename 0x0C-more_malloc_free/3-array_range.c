@@ -11,7 +11,7 @@
  */
 int *array_range(int min, int max)
 {
-	int i = 0, k = 0, j = 0;
+	unsigned int i = 0, k = 0, j = 0;
 	char *p;
 
 	if (min > max)
