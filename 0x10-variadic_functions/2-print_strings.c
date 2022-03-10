@@ -1,14 +1,14 @@
-#include "variadic_functions.h"
 #include <stdio.h>
+#include "variadic_functions.h"
 
 /**
- *print_strings - ...
- *@separator: ...
- *@n: ...
- *
- * Return: ...
- */
-void print_string(const char *separator, const unsigned int n, ...)
+  * print_strings - ...
+  * @separator: ...
+  * @n: ...
+  *
+  * Return: ...
+  */
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
 	unsigned int i = 0;
@@ -20,7 +20,7 @@ void print_string(const char *separator, const unsigned int n, ...)
 
 		while (i < n)
 		{
-			string = va_args(args, char *);
+			string = va_arg(args, char *);
 			if (string == NULL)
 				printf("%s", "(nil)");
 			else
