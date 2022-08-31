@@ -1,9 +1,16 @@
-#ifndef _SEARCH_ALGOS_H_
-#define _SEARCH_ALGOS_H_
+#ifndef HEADER_MAIN
+#define HEADER_MAIN
 
-#include <stdlib.h>
+/*********************/
+/*==== Libraries ====*/
+/*********************/
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
+/*******************/
+/*==== Structs ====*/
+/*******************/
 /**
  * struct listint_s - singly linked list
  *
@@ -12,7 +19,6 @@
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
  */
 typedef struct listint_s
 {
@@ -30,7 +36,6 @@ typedef struct listint_s
  * @express: Pointer to the next node in the express lane
  *
  * Description: singly linked list node structure with an express lane
- * for Holberton project
  */
 typedef struct skiplist_s
 {
@@ -40,6 +45,9 @@ typedef struct skiplist_s
 	struct skiplist_s *express;
 } skiplist_t;
 
+/**********************/
+/*==== Prototype =====*/
+/**********************/
 int linear_search(int *array, size_t size, int value);
 int binary_search(int *array, size_t size, int value);
 int jump_search(int *array, size_t size, int value);
